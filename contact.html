@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -13,7 +13,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 </head>
 <body style="padding-bottom: 50px;">
-    <pageName id="page" hidden>Contact</pageName>
+    <div id="page" hidden>Contact</div>
 
     <div id="nav_bar">
         <!-- Implemented via JavaScript for easier accessibility and updatability. -->
@@ -25,9 +25,9 @@
             <p><strong>Phone Number:</strong> +44 7340 857475</p>
             <p><strong>Email: </strong> 20329091@myclyde.ac.uk</p>
         </div>
-        <textarea type="text" class="text_input" cols="40" id="subject" placeholder="Enter your subject..." required></textarea>
+        <textarea class="text_input" cols="40" id="subject" placeholder="Enter your subject..." required></textarea>
         <br>
-        <textarea type="text" class="text_input" rows="4" cols="40" id="inquiry" placeholder="Enter your inquiry..." required></textarea>
+        <textarea class="text_input" rows="4" cols="40" id="inquiry" placeholder="Enter your inquiry..." required></textarea>
         <br>
         <button class="submit_button" onclick="sendEmail()">Submit</button>
         <br><br><br>
